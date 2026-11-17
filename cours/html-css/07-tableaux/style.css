@@ -105,3 +105,9 @@ thead {
 tbody tr:nth-child(even) {
     background-color: whitesmoke;
 }
+
+th[colspan] {
+    background-color: steelblue;
+    color: white;
+    font-size: 1.2em;
+}
