@@ -1,7 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    color: darkslategray;
-}
+body {}
 
 h1 {
     color: steelblue;
@@ -23,4 +20,21 @@ li {
 
 #race-vedette {
     color: purple;
+}
+
+#maine_coon {
+    color: red;
+}
+
+/* Pour aller plus loin : même sélecteur, écrit plus bas → c'est lui qui gagne */
+.recommandee {
+    color: orange;
+}
+
+
+
+/* Un vrai défi : éléments qui ont les DEUX classes */
+.recommandee.vedette {
+    background-color: gold;
+    font-style: italic;
 }
