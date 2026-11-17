@@ -1,0 +1,107 @@
+body {}
+
+h1 {
+    color: steelblue;
+}
+
+h2 {
+    color: teal;
+}
+
+li {
+    margin-bottom: 4px;
+    color: black;
+}
+
+.recommandee {
+    font-weight: bold;
+    color: seagreen;
+}
+
+#race-vedette {
+    color: purple;
+}
+
+#maine_coon {
+    color: red;
+}
+
+/* Pour aller plus loin : même sélecteur, écrit plus bas → c'est lui qui gagne */
+.recommandee {
+    color: orange;
+}
+
+.deconseillee {
+    color: blue;
+}
+
+
+/* Un vrai défi : éléments qui ont les DEUX classes */
+.recommandee.vedette {
+    background-color: lightyellow;
+    width: fit-content;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+nav a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: darkslategray;
+}
+
+nav a:hover {
+    color: seagreen;
+    text-decoration: underline;
+}
+
+figure {
+    border: 2px solid steelblue;
+    padding: 8px;
+    margin: 16px 0;
+    /* la couleur prend tout le cadre
+    background-color: red;*/
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    width: 300px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 4px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid darkslategray;
+    padding: 6px;
+    text-align: left;
+    vertical-align: top;
+}
+
+thead {
+    background-color: steelblue;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+}
