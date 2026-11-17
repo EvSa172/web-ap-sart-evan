@@ -71,6 +71,9 @@ figure {
     border: 2px solid steelblue;
     padding: 8px;
     margin: 16px 0;
+    /* la couleur prend tout le cadre
+    background-color: red;*/
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 img {
