@@ -31,6 +31,9 @@ li {
     color: orange;
 }
 
+.deconseillee {
+    color: blue;
+}
 
 
 /* Un vrai défi : éléments qui ont les DEUX classes */

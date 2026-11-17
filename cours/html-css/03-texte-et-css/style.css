@@ -19,3 +19,8 @@ li {
     font-weight: bold;
     color: seagreen;
 }
+
+em {
+    font-style: italic;
+    color: darkorange;
+}
